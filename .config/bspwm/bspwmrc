@@ -2,8 +2,8 @@
 
 killall music_not 
 sxhkd &
-/home/magnocerebri/.fehbg &
-/home/magnocerebri/.config/dunst/reload_dunst.sh &
+Nitrogen --restore &
+/home/ernoldus/.config/dunst/reload_dunst.sh &
 picom &
 music_not &
 
@@ -20,7 +20,7 @@ bspc rule -a firefox:Toolkit state=floating sticky=on
 bspc rule -a Firefox state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 #start polybar
-/home/magnocerebri/.config/polybar/launch.sh --try &
+/home/ernoldus/.config/polybar/launch.sh --try &
 
 
 #cursor
